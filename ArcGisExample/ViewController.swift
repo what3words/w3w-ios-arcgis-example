@@ -17,7 +17,7 @@ class ViewController: UIViewController, AGSGeoViewTouchDelegate {
   // set the API key here
   let x:Any = { AGSArcGISRuntimeEnvironment.apiKey = "YouArcGisApiKey" }()
   
-  // for offline use, switch to the SDK instread of the APIP
+  // for offline use, switch to the SDK instread of the API
   // use `let w3w = What3Words(dataPath: "path-to-w3w-data", engineType: .device)`
   let w3w = What3WordsV3(apiKey: "YourWhat3wordsApiKey")
   
